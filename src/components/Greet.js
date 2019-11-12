@@ -6,7 +6,8 @@ import React from 'react';
 
 const Greet = (props) => {
 return (    
-<h1> Hello {props.name} </h1>
+    // a.k.a => also known as
+<h1> Hello {props.name} a.k.a  {props.username} </h1>
 )
 } 
 
