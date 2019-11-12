@@ -2,6 +2,7 @@ import React from 'react';
 
 import Greet from './components/Greet';
 import Welcome from './components/Welcome';
+import Hello from './components/Hello';
 import './App.css';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <Greet />
       <Welcome />
+      <Hello />
     </div>
   );
 }
