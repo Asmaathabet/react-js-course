@@ -8,7 +8,10 @@ const Hello = () =>{
     //     </div>
     // )
 
-    return React.createElement('div', null, React.createElement( 'h1', null, 'Hello from JSX !'))
+    return React.createElement(
+        'div',
+         {id: 'hello', class: 'dummyClass'}, // Attributes 
+         React.createElement( 'h1', null, 'Hello from JSX !'))
 }
 
 export default Hello; 
