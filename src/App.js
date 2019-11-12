@@ -8,9 +8,11 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Greet />
-      <Welcome />
-      <Hello />
+      <Greet name="Asmaa" />
+      <Greet name="Eman" />
+      <Greet name="Alaa" />
+      {/* <Welcome />
+      <Hello /> */}
     </div>
   );
 }

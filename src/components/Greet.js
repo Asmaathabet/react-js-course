@@ -4,6 +4,10 @@ import React from 'react';
 //     return <h1> Hello From React !</h1>
 // }
 
-const Greet = () => <h1> Hello from Functional Component </h1>
+const Greet = (props) => {
+return (    
+<h1> Hello {props.name} </h1>
+)
+} 
 
 export default Greet;
