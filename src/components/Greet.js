@@ -7,7 +7,10 @@ import React from 'react';
 const Greet = (props) => {
 return (    
     // a.k.a => also known as
-<h1> Hello {props.name} a.k.a  {props.username} </h1>
+    <div>
+        <h1> Hello {props.name} a.k.a  {props.username} </h1>
+        {props.children}
+    </div>
 )
 } 
 
