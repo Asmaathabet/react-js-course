@@ -10,5 +10,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 ## Main Contents:
 
 * Functional Component VS Class Component 
-
 * Hooks
+* JSX
+
