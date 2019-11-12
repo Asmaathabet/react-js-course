@@ -5,10 +5,13 @@ import React from 'react';
 // }
 
 const Greet = (props) => {
+    // props is immutable => can't be assign or take another value
 return (    
     // a.k.a => also known as
     <div>
-        <h1> Hello {props.name} a.k.a  {props.username} </h1>
+        <h1> 
+            Hello {props.name} a.k.a  {props.username} 
+        </h1>
         {props.children}
     </div>
 )
