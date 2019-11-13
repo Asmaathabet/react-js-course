@@ -15,9 +15,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 * Props
 * State
 * setState 
+* Destructring
+* Event Handling
 
 
 ## Use Extension ES7 React/Redux/GraphQL/React-Native snippets 
-- rce [create class]
+- rce [create class component]
+- rfce [create functional component]
 - rconst [create constructor with state inside class]
 

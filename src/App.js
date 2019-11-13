@@ -5,11 +5,13 @@ import Welcome from './components/Welcome';
 import Hello from './components/Hello';
 import Message from './components/Message';
 import Counter from './components/Counter';
+import FunctionClick from './components/FunctionClick';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+      <FunctionClick />
       <Counter />
       <Greet name="Asmaa"  username="asmaa"><p1> Welcome !</p1> </Greet>
       <Greet name="Eman" username="eman" ><p1> Welcome !</p1></Greet>
