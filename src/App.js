@@ -6,12 +6,14 @@ import Hello from './components/Hello';
 import Message from './components/Message';
 import Counter from './components/Counter';
 import FunctionClick from './components/FunctionClick';
+import ClassClick from './components/ClassClick';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <FunctionClick />
+      <ClassClick />
       <Counter />
       <Greet name="Asmaa"  username="asmaa"><p1> Welcome !</p1> </Greet>
       <Greet name="Eman" username="eman" ><p1> Welcome !</p1></Greet>
