@@ -15,9 +15,15 @@ class Counter extends Component {
         // }, 
         // ()=> console.log('Callback Value', this.state.count) )
         this.setState(prevState => ({
-            count: prevState.count +1 
+            count: prevState.count + 1
             }))  
-        console.log(this.state.count)   
+        console.log(this.state.count)  
+
+      // if you want to use props with prev value 
+        // this.setState((prevState, props) => ({
+        //     count: prevState.count + props.addValue 
+        //     }))  
+        // console.log(this.state.count)  
     }
 
     incrementFive(){
