@@ -10,15 +10,21 @@ class UserGreeting extends Component {
     }
     
     render() {
+       // Third Approach - Ternary Operator Conditional Approach 
+        return (
+            this.state.isLoggedIn ?
+            <div> Welcome Asmaa</div> :
+            <div> Welcome Guest</div> 
+        )
         // Second Aprroach
-        let message;
-        if (this.state.isLoggedIn) {
-            message = <div> Welcome Asmaa</div>
-        } else {
-            message = <div>Welcome Guest</div>
-        }
+        // let message;
+        // if (this.state.isLoggedIn) {
+        //     message = <div> Welcome Asmaa</div>
+        // } else {
+        //     message = <div>Welcome Guest</div>
+        // }
 
-        return <div>{message}</div>
+        // return <div>{message}</div>
 
         // First Approach
         // if (this.state.isLoggedIn){
