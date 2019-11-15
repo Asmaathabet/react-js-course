@@ -26,7 +26,7 @@ function NameList() {
     ]
     // NameList is responsible to render List
     const PersonList = persons.map(person => 
-     <Person person ={person}></Person>
+     <Person key={person.id} person ={person}></Person>
     )
     return (
         <div>
