@@ -20,6 +20,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 * Binding Event Handlers
 * Conditional Rendering
 * List Rendering
+* List & Keys 
+* Index as Key 
 
 ## Use Extension ES7 React/Redux/GraphQL/React-Native snippets 
 - rce [create class component]
