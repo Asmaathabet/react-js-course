@@ -8,13 +8,15 @@ import React from 'react';
 // import FunctionClick from './components/FunctionClick';
 // import ClassClick from './components/ClassClick';
 // import EventBind from './components/EventBind';
-import UserGreeting from './components/UserGreeting';
+// import UserGreeting from './components/UserGreeting';
+import NameList from './components/NameList';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <UserGreeting />
+      <NameList />
+      {/* <UserGreeting /> */}
       {/* <EventBind /> */}
       {/* <FunctionClick />
       <ClassClick />

@@ -19,6 +19,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 * Event Handling
 * Binding Event Handlers
 * Conditional Rendering
+* List Rendering
 
 ## Use Extension ES7 React/Redux/GraphQL/React-Native snippets 
 - rce [create class component]
