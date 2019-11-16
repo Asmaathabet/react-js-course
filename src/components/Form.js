@@ -28,26 +28,34 @@ class Form extends Component {
             topic: event.target.value
         })
       }
+
+      handleSubmit = event => {
+          alert(` ${this.state.username} ${this.state.topic} ${this.state.comments}` )
+          // to stop default refresh after submitting
+          event.preventDefault();
+      }
     
     render() {
+        const {username, comments, topic } = this.state;
         return (
-            <form>
+            <form onSubmit={this.handleSubmit}>
                 <div>
                   <label>Username</label>
-                  <input type='text' value={this.state.username} onChange={this.handleUsernameChange} />
+                  <input type='text' value={username} onChange={this.handleUsernameChange} />
                 </div>
                 <div>
                   <label>Comments</label>
-                  <textarea value={this.state.comments} onChange={this.handleCommentsChange}></textarea>
+                  <textarea value={comments} onChange={this.handleCommentsChange}></textarea>
                 </div>
                 <div>
                     <label>Topic</label>
-                    <select value={this.state.topic} onChange={this.handleTopic}>
+                    <select value={topic} onChange={this.handleTopic}>
                         <option value="react">React</option>
                         <option value="vue">Vue</option>
                         <option value="angular">Angular</option>
                     </select>
                 </div>
+                <button type="submit" >Submit</button>
             </form>
         )
     }
