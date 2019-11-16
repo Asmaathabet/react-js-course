@@ -10,13 +10,15 @@ import React from 'react';
 // import EventBind from './components/EventBind';
 // import UserGreeting from './components/UserGreeting';
 // import NameList from './components/NameList';
-import StyleSheet from './components/StyleSheet';
+// import StyleSheet from './components/StyleSheet';
+import Inline from './components/Inline';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <StyleSheet primary={true} />
+      <Inline />
+      {/* <StyleSheet primary={true} /> */}
       {/* <NameList /> */}
       {/* <UserGreeting /> */}
       {/* <EventBind /> */}
