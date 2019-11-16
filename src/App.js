@@ -9,13 +9,15 @@ import React from 'react';
 // import ClassClick from './components/ClassClick';
 // import EventBind from './components/EventBind';
 // import UserGreeting from './components/UserGreeting';
-import NameList from './components/NameList';
+// import NameList from './components/NameList';
+import StyleSheet from './components/StyleSheet';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <NameList />
+      <StyleSheet />
+      {/* <NameList /> */}
       {/* <UserGreeting /> */}
       {/* <EventBind /> */}
       {/* <FunctionClick />

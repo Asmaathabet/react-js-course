@@ -22,6 +22,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 * List Rendering
 * List & Keys 
 * Index as Key 
+* Styling & CSS basics  [StyleSheet.js]
 
 ## Use Extension ES7 React/Redux/GraphQL/React-Native snippets 
 - rce [create class component]
