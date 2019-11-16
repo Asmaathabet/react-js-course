@@ -16,7 +16,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <StyleSheet />
+      <StyleSheet primary={true} />
       {/* <NameList /> */}
       {/* <UserGreeting /> */}
       {/* <EventBind /> */}
