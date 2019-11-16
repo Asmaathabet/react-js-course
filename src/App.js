@@ -14,14 +14,15 @@ import React from 'react';
 // import Inline from './components/Inline';
 // import './appStyles.css'
 // import styles from './appStyles.module.css'
-import Form from './components/Form';
+// import Form from './components/Form';
+import LifeCycleA from './components/LifeCycles/LifeCycleA'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-    
-      <Form />
+    <LifeCycleA />
+      {/* <Form /> */}
       {/* it works for all childern component - regular StyleSheet */}
       {/* <h1 className="error"> Error </h1> */}
        {/* XXX it doesn't work for all children components   */}
