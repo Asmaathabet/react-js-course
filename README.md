@@ -25,7 +25,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 * Styling & CSS basics  [StyleSheet.js] [Inline.js] [myStyles.css] [appStyles.css] [appStyles.module.css]
 * Basics of Form Handling [Form.js]
 * Component Life Cycles Methods
-   * Mounting 
+   * Mounting [LifeCycleA] [LifeCycleB] 
+   * Updating [LifeCycleA] [LifeCycleB]
 
 ## Use Extension ES7 React/Redux/GraphQL/React-Native snippets 
 - rce [create class component]
